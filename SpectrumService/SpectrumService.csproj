@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <!-- Built against LTS, but allowed to run on whatever newer runtime is installed -->
+    <RollForward>LatestMajor</RollForward>
+    <AssemblyName>SpectrumService</AssemblyName>
+    <RootNamespace>SpectrumService</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+</Project>

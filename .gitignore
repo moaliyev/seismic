@@ -1,3 +1,6 @@
 __pycache__
 .claude
 env
+.venv
+SpectrumService/bin/
+SpectrumService/obj/
